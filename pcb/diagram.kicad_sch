@@ -1,0 +1,555 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "4aecb642-a8e4-4244-96f5-f2b968d22d9b")
+	(paper "A4")
+	(lib_symbols)
+	(rectangle
+		(start 88.9 38.1)
+		(end 127 101.6)
+		(stroke
+			(width 0.508)
+			(type default)
+			(color 255 153 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 5dea0780-fd2a-4ba7-afce-114cc6920388)
+	)
+	(rectangle
+		(start 38.1 39.37)
+		(end 69.85 52.07)
+		(stroke
+			(width 0.508)
+			(type default)
+			(color 255 153 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 788c59d3-3db5-4905-a26a-3c06edd49548)
+	)
+	(rectangle
+		(start 38.1 58.42)
+		(end 69.85 71.12)
+		(stroke
+			(width 0.508)
+			(type default)
+			(color 0 0 255 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid cc31d358-853d-4b17-8b92-c2d833549312)
+	)
+	(rectangle
+		(start 146.05 39.37)
+		(end 177.8 52.07)
+		(stroke
+			(width 0.508)
+			(type default)
+			(color 0 0 255 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid d8374dcb-5c48-4b4b-84ab-01d8d67377e4)
+	)
+	(rectangle
+		(start 38.1 77.47)
+		(end 69.85 90.17)
+		(stroke
+			(width 0.508)
+			(type default)
+			(color 0 0 255 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid dfbe7f8f-9337-4a57-9f15-b97657bf7beb)
+	)
+	(text "DPI 24bpp"
+		(exclude_from_sim no)
+		(at 79.756 45.466 0)
+		(effects
+			(font
+				(face "Times New Roman")
+				(size 1.905 1.905)
+				(italic yes)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "1708be97-b764-4846-8ee0-8317e091be5e")
+	)
+	(text "SDIO"
+		(exclude_from_sim no)
+		(at 136.906 45.466 0)
+		(effects
+			(font
+				(face "Times New Roman")
+				(size 1.905 1.905)
+				(italic yes)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "273ce926-88cf-41f2-b6a0-a1d16d73f047")
+	)
+	(text "I2C_2"
+		(exclude_from_sim no)
+		(at 79.756 83.566 0)
+		(effects
+			(font
+				(face "Times New Roman")
+				(size 1.905 1.905)
+				(italic yes)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "29a9d4ba-8f17-43ef-b8f3-5af03543dce1")
+	)
+	(text "Tang Primer 25k"
+		(exclude_from_sim no)
+		(at 107.95 50.038 0)
+		(effects
+			(font
+				(face "Times New Roman")
+				(size 2.54 2.54)
+				(italic yes)
+				(color 72 0 0 1)
+			)
+		)
+		(uuid "2d519090-83a6-4b25-a435-4d1e957f163c")
+	)
+	(text "USB 1.1 Device"
+		(exclude_from_sim no)
+		(at 136.906 97.536 0)
+		(effects
+			(font
+				(face "Times New Roman")
+				(size 1.905 1.905)
+				(italic yes)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "38cad8d3-c7bc-4292-9695-22457e2654fd")
+	)
+	(text "GPIOs x16"
+		(exclude_from_sim no)
+		(at 136.906 72.136 0)
+		(effects
+			(font
+				(face "Times New Roman")
+				(size 1.905 1.905)
+				(italic yes)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "3f4a04b1-1965-4198-ac51-b329a0ce12a8")
+	)
+	(text "EEPROM"
+		(exclude_from_sim no)
+		(at 45.72 81.534 0)
+		(effects
+			(font
+				(face "Times New Roman")
+				(size 1.905 1.905)
+				(italic yes)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "49774f13-2466-4475-b3a8-3270989e2e93")
+	)
+	(text "2x DF40C-60DS-0.4V(51)"
+		(exclude_from_sim no)
+		(at 107.95 55.118 0)
+		(effects
+			(font
+				(face "Times New Roman")
+				(size 1.905 1.905)
+				(italic yes)
+				(color 72 0 0 1)
+			)
+		)
+		(uuid "523c2783-c0ec-4dc4-bc0b-ce7861459fd7")
+	)
+	(text "Block Diagram"
+		(exclude_from_sim no)
+		(at 52.324 27.686 0)
+		(effects
+			(font
+				(face "Times New Roman")
+				(size 6.35 6.35)
+				(italic yes)
+			)
+		)
+		(uuid "56baa1bc-74e2-45fc-9d9e-a6926b891bd4")
+	)
+	(text "HYPERRAM"
+		(exclude_from_sim no)
+		(at 47.244 62.484 0)
+		(effects
+			(font
+				(face "Times New Roman")
+				(size 1.905 1.905)
+				(italic yes)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "617d8273-da1c-432b-a537-66a7b39031a5")
+	)
+	(text "HYPERBUS x8"
+		(exclude_from_sim no)
+		(at 79.756 64.516 0)
+		(effects
+			(font
+				(face "Times New Roman")
+				(size 1.905 1.905)
+				(italic yes)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "7113596e-b5d7-4e50-a4cf-b0c26b28c1cd")
+	)
+	(text "I2S_1  I2C_1"
+		(exclude_from_sim no)
+		(at 79.756 49.784 0)
+		(effects
+			(font
+				(face "Times New Roman")
+				(size 1.905 1.905)
+				(italic yes)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "c20ccc83-66ec-4f3d-82fe-5907a67bd3ff")
+	)
+	(text "Winbond W958D8NBY"
+		(exclude_from_sim no)
+		(at 52.324 65.786 0)
+		(effects
+			(font
+				(face "Times New Roman")
+				(size 1.905 1.905)
+				(italic yes)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "cb203254-2500-49d4-bcdd-2a55586a5665")
+	)
+	(text "JTAG"
+		(exclude_from_sim no)
+		(at 136.906 64.516 0)
+		(effects
+			(font
+				(face "Times New Roman")
+				(size 1.905 1.905)
+				(italic yes)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "dfdfd863-8232-4b6c-b478-ef22e2c58092")
+	)
+	(text "micro-SD Card"
+		(exclude_from_sim no)
+		(at 156.718 43.434 0)
+		(effects
+			(font
+				(face "Times New Roman")
+				(size 1.905 1.905)
+				(italic yes)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "e607a188-49d9-4b44-b25e-40bc9c641c8b")
+	)
+	(text "to pdaltmode module"
+		(exclude_from_sim no)
+		(at 51.562 43.18 0)
+		(effects
+			(font
+				(face "Times New Roman")
+				(size 1.905 1.905)
+				(italic yes)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "f38666f1-3bfd-4b2a-8ebd-1fa65ff05ef4")
+	)
+	(polyline
+		(pts
+			(xy 72.39 86.36) (xy 69.85 85.09)
+		)
+		(stroke
+			(width 0.508)
+			(type default)
+			(color 0 0 255 1)
+		)
+		(uuid "0f881b35-4f8d-4e51-bc2d-ad84f88277c4")
+	)
+	(polyline
+		(pts
+			(xy 72.39 48.26) (xy 69.85 46.99)
+		)
+		(stroke
+			(width 0.508)
+			(type default)
+			(color 255 153 0 1)
+		)
+		(uuid "22712e0e-6564-49a8-a889-a23bfad12e95")
+	)
+	(polyline
+		(pts
+			(xy 127 73.66) (xy 146.05 73.66)
+		)
+		(stroke
+			(width 0.508)
+			(type default)
+			(color 255 153 0 1)
+		)
+		(uuid "259008bf-2e61-484e-847e-ee16eeba9dfc")
+	)
+	(polyline
+		(pts
+			(xy 146.05 46.99) (xy 143.51 45.72)
+		)
+		(stroke
+			(width 0.508)
+			(type default)
+			(color 0 0 255 1)
+		)
+		(uuid "3f1d38dd-48a3-49ba-9aea-30b59c81857a")
+	)
+	(polyline
+		(pts
+			(xy 143.51 67.31) (xy 146.05 66.04)
+		)
+		(stroke
+			(width 0.508)
+			(type default)
+			(color 255 153 0 1)
+		)
+		(uuid "417b8f85-aaf6-432e-beef-135c87d4582f")
+	)
+	(polyline
+		(pts
+			(xy 146.05 46.99) (xy 143.51 48.26)
+		)
+		(stroke
+			(width 0.508)
+			(type default)
+			(color 0 0 255 1)
+		)
+		(uuid "4acb47e0-7838-45db-a676-e737c2961537")
+	)
+	(polyline
+		(pts
+			(xy 88.9 66.04) (xy 69.85 66.04)
+		)
+		(stroke
+			(width 0.508)
+			(type default)
+			(color 0 0 255 1)
+		)
+		(uuid "592b5ac0-3d93-404f-baf1-87ceaaa89b8a")
+	)
+	(polyline
+		(pts
+			(xy 72.39 45.72) (xy 69.85 46.99)
+		)
+		(stroke
+			(width 0.508)
+			(type default)
+			(color 255 153 0 1)
+		)
+		(uuid "65eb12ab-2035-475f-8cec-9d6f8676af25")
+	)
+	(polyline
+		(pts
+			(xy 72.39 67.31) (xy 69.85 66.04)
+		)
+		(stroke
+			(width 0.508)
+			(type default)
+			(color 0 0 255 1)
+		)
+		(uuid "6c02a44c-f84d-40d2-a379-c070c1eb8c01")
+	)
+	(polyline
+		(pts
+			(xy 88.9 46.99) (xy 69.85 46.99)
+		)
+		(stroke
+			(width 0.508)
+			(type default)
+			(color 255 153 0 1)
+		)
+		(uuid "86ad05ae-707d-4bec-95ac-72847df3ad87")
+	)
+	(polyline
+		(pts
+			(xy 127 99.06) (xy 146.05 99.06)
+		)
+		(stroke
+			(width 0.508)
+			(type default)
+			(color 0 0 255 1)
+		)
+		(uuid "92a75a32-4228-43d1-a57b-dd4b0de55143")
+	)
+	(polyline
+		(pts
+			(xy 72.39 64.77) (xy 69.85 66.04)
+		)
+		(stroke
+			(width 0.508)
+			(type default)
+			(color 0 0 255 1)
+		)
+		(uuid "9a893665-83e6-4410-b420-3a24716735f3")
+	)
+	(polyline
+		(pts
+			(xy 146.05 46.99) (xy 127 46.99)
+		)
+		(stroke
+			(width 0.508)
+			(type default)
+			(color 0 0 255 1)
+		)
+		(uuid "9edbbdca-62fc-4fd9-9253-68aca2f82aba")
+	)
+	(polyline
+		(pts
+			(xy 143.51 97.79) (xy 146.05 99.06)
+		)
+		(stroke
+			(width 0.508)
+			(type default)
+			(color 0 0 255 1)
+		)
+		(uuid "a79e636e-3b19-480b-b3c1-4fdeacf2be3a")
+	)
+	(polyline
+		(pts
+			(xy 127 66.04) (xy 146.05 66.04)
+		)
+		(stroke
+			(width 0.508)
+			(type default)
+			(color 255 153 0 1)
+		)
+		(uuid "abb8f5af-7d36-40bc-b63f-d83bb4967f3d")
+	)
+	(polyline
+		(pts
+			(xy 88.9 85.09) (xy 69.85 85.09)
+		)
+		(stroke
+			(width 0.508)
+			(type default)
+			(color 0 0 255 1)
+		)
+		(uuid "af113f8c-a57d-4f26-90b4-d33f61d6f69a")
+	)
+	(polyline
+		(pts
+			(xy 88.9 46.99) (xy 86.36 45.72)
+		)
+		(stroke
+			(width 0.508)
+			(type default)
+			(color 255 153 0 1)
+		)
+		(uuid "ba0ccce6-fbca-4ab5-805f-f41a2c4f744c")
+	)
+	(polyline
+		(pts
+			(xy 143.51 100.33) (xy 146.05 99.06)
+		)
+		(stroke
+			(width 0.508)
+			(type default)
+			(color 0 0 255 1)
+		)
+		(uuid "bfb8bdff-2e9d-4342-8b19-544763a82d06")
+	)
+	(polyline
+		(pts
+			(xy 88.9 66.04) (xy 86.36 64.77)
+		)
+		(stroke
+			(width 0.508)
+			(type default)
+			(color 0 0 255 1)
+		)
+		(uuid "c8ab8ea3-379e-4508-aec5-075ceea90c1b")
+	)
+	(polyline
+		(pts
+			(xy 143.51 72.39) (xy 146.05 73.66)
+		)
+		(stroke
+			(width 0.508)
+			(type default)
+			(color 255 153 0 1)
+		)
+		(uuid "c9174057-b871-4122-b640-4199e8ae282e")
+	)
+	(polyline
+		(pts
+			(xy 143.51 74.93) (xy 146.05 73.66)
+		)
+		(stroke
+			(width 0.508)
+			(type default)
+			(color 255 153 0 1)
+		)
+		(uuid "cb56814e-99db-4e56-9396-118a890bc241")
+	)
+	(polyline
+		(pts
+			(xy 72.39 83.82) (xy 69.85 85.09)
+		)
+		(stroke
+			(width 0.508)
+			(type default)
+			(color 0 0 255 1)
+		)
+		(uuid "def848c8-02fd-4e5d-b8a6-41ef79754ed9")
+	)
+	(polyline
+		(pts
+			(xy 143.51 64.77) (xy 146.05 66.04)
+		)
+		(stroke
+			(width 0.508)
+			(type default)
+			(color 255 153 0 1)
+		)
+		(uuid "edf8d2fa-9beb-44e2-ab3d-504e86937a75")
+	)
+	(polyline
+		(pts
+			(xy 88.9 46.99) (xy 86.36 48.26)
+		)
+		(stroke
+			(width 0.508)
+			(type default)
+			(color 255 153 0 1)
+		)
+		(uuid "f2629c06-c8e9-41e4-be60-2976c0e853d9")
+	)
+	(polyline
+		(pts
+			(xy 88.9 66.04) (xy 86.36 67.31)
+		)
+		(stroke
+			(width 0.508)
+			(type default)
+			(color 0 0 255 1)
+		)
+		(uuid "f4077cc0-27d9-4d00-9a8c-bc0a0a739bb8")
+	)
+)
