@@ -9230,6 +9230,12 @@
 		(uuid "45ed19f6-4437-4ae5-b725-5af2d572c368")
 	)
 	(junction
+		(at 335.28 33.02)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5cf22069-003b-482e-9132-475957dd0dbc")
+	)
+	(junction
 		(at 307.34 67.31)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -9554,6 +9560,16 @@
 			(type default)
 		)
 		(uuid "0a939588-a53c-47c5-9956-c0b24dc1acf9")
+	)
+	(wire
+		(pts
+			(xy 325.12 172.72) (xy 341.63 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0aa274cd-0857-4248-91f8-50dff516b6ad")
 	)
 	(wire
 		(pts
@@ -10657,7 +10673,7 @@
 	)
 	(wire
 		(pts
-			(xy 307.34 33.02) (xy 337.82 33.02)
+			(xy 307.34 33.02) (xy 335.28 33.02)
 		)
 		(stroke
 			(width 0)
@@ -11557,6 +11573,16 @@
 	)
 	(wire
 		(pts
+			(xy 335.28 33.02) (xy 335.28 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "98a3068a-2b95-45d8-a3be-f686826a3394")
+	)
+	(wire
+		(pts
 			(xy 172.72 161.29) (xy 189.23 161.29)
 		)
 		(stroke
@@ -11864,6 +11890,16 @@
 			(type dash)
 		)
 		(uuid "aeb60848-5d57-462f-9a6f-d28824bf09a6")
+	)
+	(wire
+		(pts
+			(xy 335.28 33.02) (xy 337.82 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "afe08b78-2fde-4634-99af-dbaed2d42328")
 	)
 	(polyline
 		(pts
@@ -12307,6 +12343,16 @@
 	)
 	(wire
 		(pts
+			(xy 335.28 35.56) (xy 337.82 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c9d37bf5-b2c2-4e0d-9286-74ac5fdb902e")
+	)
+	(wire
+		(pts
 			(xy 172.72 113.03) (xy 189.23 113.03)
 		)
 		(stroke
@@ -12384,6 +12430,16 @@
 			(type dash)
 		)
 		(uuid "d15a1327-30a9-492d-af23-4abe2928b3c5")
+	)
+	(wire
+		(pts
+			(xy 354.33 172.72) (xy 349.25 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d17e7de8-5f38-4717-bc23-a5874dd877e5")
 	)
 	(wire
 		(pts
@@ -14334,6 +14390,16 @@
 			(justify left bottom)
 		)
 		(uuid "922234bd-1dcb-4685-8d19-5ef24919fdcd")
+	)
+	(label "DP_I2S_OSCLK"
+		(at 325.755 172.72 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "977850da-6d8a-430b-a4f0-d8fec68490d7")
 	)
 	(label "USBD_P"
 		(at 328.93 195.58 0)
@@ -20845,6 +20911,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 354.33 172.72 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "929d7543-3604-4cb4-a2b9-13208c65c2ab")
+		(property "Reference" "#PWR084"
+			(at 360.68 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 357.505 172.7199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 354.33 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 354.33 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 354.33 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cc63cb1d-da5a-4be0-932a-4676611ed286")
+		)
+		(instances
+			(project "cube"
+				(path "/cbfeefcb-b645-46cd-9b01-7e54716c2cc6/98eae4ed-df91-480a-b542-3b09347ca971"
+					(reference "#PWR084")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 231.14 198.12 0)
 		(mirror y)
@@ -22826,6 +22959,73 @@
 			(project "cube"
 				(path "/cbfeefcb-b645-46cd-9b01-7e54716c2cc6/98eae4ed-df91-480a-b542-3b09347ca971"
 					(reference "#PWR051")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 345.44 172.72 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d0eb5e3b-f304-4973-8530-4d165a494dd9")
+		(property "Reference" "R11"
+			(at 342.646 170.18 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10kΩ"
+			(at 348.234 170.18 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 345.44 174.498 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 345.44 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 345.44 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "37ebc557-fbcb-4012-9bdf-93e5be61f39f")
+		)
+		(pin "2"
+			(uuid "393c09d7-4585-4dcd-8427-e463c0221fe2")
+		)
+		(instances
+			(project "cube"
+				(path "/cbfeefcb-b645-46cd-9b01-7e54716c2cc6/98eae4ed-df91-480a-b542-3b09347ca971"
+					(reference "R11")
 					(unit 1)
 				)
 			)
