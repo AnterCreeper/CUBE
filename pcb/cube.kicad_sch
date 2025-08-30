@@ -343,7 +343,7 @@
 	)
 	(text "PAGE 5"
 		(exclude_from_sim no)
-		(at 37.592 170.942 0)
+		(at 113.792 145.542 0)
 		(effects
 			(font
 				(face "Courier New")
@@ -356,7 +356,7 @@
 	)
 	(text "PAGE 3"
 		(exclude_from_sim no)
-		(at 76.2 145.288 0)
+		(at 38.1 170.688 0)
 		(effects
 			(font
 				(face "Courier New")
@@ -395,7 +395,7 @@
 	)
 	(text "PAGE 4"
 		(exclude_from_sim no)
-		(at 76.2 170.942 0)
+		(at 76.2 145.542 0)
 		(effects
 			(font
 				(face "Courier New")
@@ -405,6 +405,19 @@
 			)
 		)
 		(uuid "9e801979-ff24-4023-9e00-54218f1e7a34")
+	)
+	(text "PAGE 6"
+		(exclude_from_sim no)
+		(at 113.792 170.942 0)
+		(effects
+			(font
+				(face "Courier New")
+				(size 2.54 2.54)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "a5135a81-5551-4230-b043-f4a47846e905")
 	)
 	(text "Revision History"
 		(exclude_from_sim no)
@@ -822,7 +835,7 @@
 		)
 	)
 	(sheet
-		(at 63.5 139.7)
+		(at 101.6 139.7)
 		(size 25.4 12.7)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -836,9 +849,9 @@
 		(fill
 			(color 0 0 0 0.0000)
 		)
-		(uuid "5974d661-d911-4a9f-b2f8-aa24ae1e983b")
-		(property "Sheetname" "DIAGRAM"
-			(at 63.5 138.9884 0)
+		(uuid "541a9438-995b-4d12-a410-28aec37781f5")
+		(property "Sheetname" "PORT0"
+			(at 101.6 138.9884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -846,8 +859,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "diagram.kicad_sch"
-			(at 63.5 152.9846 0)
+		(property "Sheetfile" "port0.kicad_sch"
+			(at 101.6 152.9846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -858,49 +871,7 @@
 		(instances
 			(project "cube"
 				(path "/cbfeefcb-b645-46cd-9b01-7e54716c2cc6"
-					(page "3")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 63.5 165.1)
-		(size 25.4 12.7)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "98eae4ed-df91-480a-b542-3b09347ca971")
-		(property "Sheetname" "DEVICE"
-			(at 63.5 164.3884 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "device.kicad_sch"
-			(at 63.5 178.3846 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "cube"
-				(path "/cbfeefcb-b645-46cd-9b01-7e54716c2cc6"
-					(page "4")
+					(page "5")
 				)
 			)
 		)
@@ -920,8 +891,8 @@
 		(fill
 			(color 0 0 0 0.0000)
 		)
-		(uuid "d8814d94-37ae-44b9-9c06-9489e42ad8e0")
-		(property "Sheetname" "LICENSE"
+		(uuid "5974d661-d911-4a9f-b2f8-aa24ae1e983b")
+		(property "Sheetname" "DIAGRAM"
 			(at 25.4 164.3884 0)
 			(effects
 				(font
@@ -930,7 +901,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "license.kicad_sch"
+		(property "Sheetfile" "diagram.kicad_sch"
 			(at 25.4 178.3846 0)
 			(effects
 				(font
@@ -942,7 +913,91 @@
 		(instances
 			(project "cube"
 				(path "/cbfeefcb-b645-46cd-9b01-7e54716c2cc6"
-					(page "5")
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 63.5 139.7)
+		(size 25.4 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "98eae4ed-df91-480a-b542-3b09347ca971")
+		(property "Sheetname" "DEVICE"
+			(at 63.5 138.9884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "device.kicad_sch"
+			(at 63.5 152.9846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "cube"
+				(path "/cbfeefcb-b645-46cd-9b01-7e54716c2cc6"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 101.6 165.1)
+		(size 25.4 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "cc6b68b9-7b14-41a9-b498-8b9a2c60c69f")
+		(property "Sheetname" "PORT1"
+			(at 101.6 164.3884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "port1.kicad_sch"
+			(at 101.6 178.3846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "cube"
+				(path "/cbfeefcb-b645-46cd-9b01-7e54716c2cc6"
+					(page "6")
 				)
 			)
 		)

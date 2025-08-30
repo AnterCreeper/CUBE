@@ -700,8 +700,12 @@
       "DEVICE"
     ],
     [
-      "d8814d94-37ae-44b9-9c06-9489e42ad8e0",
-      "LICENSE"
+      "541a9438-995b-4d12-a410-28aec37781f5",
+      "PORT0"
+    ],
+    [
+      "cc6b68b9-7b14-41a9-b498-8b9a2c60c69f",
+      "PORT1"
     ]
   ],
   "text_variables": {}
