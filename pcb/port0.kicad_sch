@@ -1171,20 +1171,6 @@
 		)
 		(uuid "01068f36-3d28-469a-8287-d54beeec95dd")
 	)
-	(text "L9_IOT31A"
-		(exclude_from_sim no)
-		(at 224.79 93.472 0)
-		(effects
-			(font
-				(face "Courier New")
-				(size 2.54 2.54)
-				(thickness 0.508)
-				(bold yes)
-			)
-			(justify left)
-		)
-		(uuid "01180c8c-61d0-4fa4-b76b-caa3c477b9b7")
-	)
 	(text "USBFS_N"
 		(exclude_from_sim no)
 		(at 110.49 125.222 0)
@@ -1198,6 +1184,20 @@
 			(justify left)
 		)
 		(uuid "03c8ba15-cd4f-4ec3-b732-cfe08111710a")
+	)
+	(text "DP_I2S_DATA"
+		(exclude_from_sim no)
+		(at 199.39 131.572 0)
+		(effects
+			(font
+				(face "Courier New")
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "0603aabe-0cd6-4a70-8a49-f618ceb1b3b5")
 	)
 	(text "H7_IOT66B"
 		(exclude_from_sim no)
@@ -1241,6 +1241,20 @@
 		)
 		(uuid "0b3f9d88-d7ab-451b-bd25-357adcc35e51")
 	)
+	(text "RAM_CLK"
+		(exclude_from_sim no)
+		(at 199.39 106.172 0)
+		(effects
+			(font
+				(face "Courier New")
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "0ba3642f-c4dc-43e7-bfad-bb6a1dc1182e")
+	)
 	(text "IO"
 		(exclude_from_sim no)
 		(at 110.49 36.576 0)
@@ -1255,9 +1269,9 @@
 		)
 		(uuid "0c226fed-0bf8-4595-b046-974c8bdced43")
 	)
-	(text "SD_CMD"
+	(text "RAM_D4"
 		(exclude_from_sim no)
-		(at 199.39 118.872 0)
+		(at 199.39 74.168 0)
 		(effects
 			(font
 				(face "Courier New")
@@ -1267,35 +1281,7 @@
 			)
 			(justify left)
 		)
-		(uuid "0c23e9b6-20bd-489d-9bfe-a0adb45f60a6")
-	)
-	(text "RAM_CLK"
-		(exclude_from_sim no)
-		(at 199.39 99.822 0)
-		(effects
-			(font
-				(face "Courier New")
-				(size 2.54 2.54)
-				(thickness 0.508)
-				(bold yes)
-			)
-			(justify left)
-		)
-		(uuid "0da1ad6f-9171-46ea-b029-0e4537eb3732")
-	)
-	(text "C2_IOB4B"
-		(exclude_from_sim no)
-		(at 224.79 118.872 0)
-		(effects
-			(font
-				(face "Courier New")
-				(size 2.54 2.54)
-				(thickness 0.508)
-				(bold yes)
-			)
-			(justify left)
-		)
-		(uuid "13eb3ea5-7783-4921-9bb7-f8df423063fc")
+		(uuid "11e7e6b4-d668-4737-a134-6de25ade979b")
 	)
 	(text "G10_IOT7B"
 		(exclude_from_sim no)
@@ -1310,20 +1296,6 @@
 			(justify left)
 		)
 		(uuid "14c00265-7937-44bd-a11d-718c43666ba0")
-	)
-	(text "DP_I2S_DATA"
-		(exclude_from_sim no)
-		(at 110.49 112.522 0)
-		(effects
-			(font
-				(face "Courier New")
-				(size 2.54 2.54)
-				(thickness 0.508)
-				(bold yes)
-			)
-			(justify left)
-		)
-		(uuid "153bdc8c-3e90-46f6-bbf8-dfa90523e6e6")
 	)
 	(text "H5_IOT61A"
 		(exclude_from_sim no)
@@ -1353,6 +1325,20 @@
 		)
 		(uuid "16162c74-297e-4fc2-9819-963976f4540c")
 	)
+	(text "RAM_D6"
+		(exclude_from_sim no)
+		(at 199.39 87.122 0)
+		(effects
+			(font
+				(face "Courier New")
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "1859a6f9-468b-412e-b16a-3cd065e4761e")
+	)
 	(text "DP_D1"
 		(exclude_from_sim no)
 		(at 21.59 49.022 0)
@@ -1367,20 +1353,6 @@
 		)
 		(uuid "188afcf1-722c-4bb4-b381-bec81c0c1b24")
 	)
-	(text "F1_IOB26B"
-		(exclude_from_sim no)
-		(at 224.79 125.222 0)
-		(effects
-			(font
-				(face "Courier New")
-				(size 2.54 2.54)
-				(thickness 0.508)
-				(bold yes)
-			)
-			(justify left)
-		)
-		(uuid "1904b8ae-6489-4ddf-a666-f7a56486556a")
-	)
 	(text "G8_IOT68B"
 		(exclude_from_sim no)
 		(at 135.89 80.772 0)
@@ -1394,6 +1366,20 @@
 			(justify left)
 		)
 		(uuid "1919bf7d-9b62-4266-9d03-7d09eb99ef04")
+	)
+	(text "RAM_RWDS"
+		(exclude_from_sim no)
+		(at 199.39 99.822 0)
+		(effects
+			(font
+				(face "Courier New")
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "195fd287-0162-4fde-a585-11d5536acd29")
 	)
 	(text "DP_D18"
 		(exclude_from_sim no)
@@ -1422,62 +1408,6 @@
 			(justify left)
 		)
 		(uuid "231de248-b9e9-4796-8bba-7ab1a12942dc")
-	)
-	(text "RAM_D2"
-		(exclude_from_sim no)
-		(at 199.39 55.118 0)
-		(effects
-			(font
-				(face "Courier New")
-				(size 2.54 2.54)
-				(thickness 0.508)
-				(bold yes)
-			)
-			(justify left)
-		)
-		(uuid "26392fef-4ef0-4539-9608-f35b846fd955")
-	)
-	(text "F7_IOT58A"
-		(exclude_from_sim no)
-		(at 224.79 106.172 0)
-		(effects
-			(font
-				(face "Courier New")
-				(size 2.54 2.54)
-				(thickness 0.508)
-				(bold yes)
-			)
-			(justify left)
-		)
-		(uuid "278d67be-2247-426a-bf06-a81b5b8d3481")
-	)
-	(text "A10_IOL14B"
-		(exclude_from_sim no)
-		(at 135.89 112.522 0)
-		(effects
-			(font
-				(face "Courier New")
-				(size 2.54 2.54)
-				(thickness 0.508)
-				(bold yes)
-			)
-			(justify left)
-		)
-		(uuid "27f11267-1246-4759-931a-b86618c8ed0b")
-	)
-	(text "RAM_D7"
-		(exclude_from_sim no)
-		(at 199.39 87.122 0)
-		(effects
-			(font
-				(face "Courier New")
-				(size 2.54 2.54)
-				(thickness 0.508)
-				(bold yes)
-			)
-			(justify left)
-		)
-		(uuid "29344d98-9985-44c0-97f5-9ca2fe94b5b5")
 	)
 	(text "K7_IOT21A"
 		(exclude_from_sim no)
@@ -1535,9 +1465,9 @@
 		)
 		(uuid "34a4b930-cf87-4187-b6fb-18c22af8c370")
 	)
-	(text "J10_IOT1B"
+	(text "USBFS_PP"
 		(exclude_from_sim no)
-		(at 224.79 99.822 0)
+		(at 199.39 42.672 0)
 		(effects
 			(font
 				(face "Courier New")
@@ -1547,7 +1477,21 @@
 			)
 			(justify left)
 		)
-		(uuid "39a41323-ed41-49fd-b191-af88b9a4e993")
+		(uuid "358cbccf-d10f-4b4d-b704-f28c652fa277")
+	)
+	(text "RAM_CS"
+		(exclude_from_sim no)
+		(at 199.39 112.522 0)
+		(effects
+			(font
+				(face "Courier New")
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "42a10c2a-8052-4f6b-932e-fa51b1f1b991")
 	)
 	(text "H10_IOT3B"
 		(exclude_from_sim no)
@@ -1577,23 +1521,9 @@
 		)
 		(uuid "473b334a-4d6d-424e-b022-e7e83d5954ea")
 	)
-	(text "DP_I2S_LRCLK"
-		(exclude_from_sim no)
-		(at 110.49 99.822 0)
-		(effects
-			(font
-				(face "Courier New")
-				(size 2.032 2.032)
-				(thickness 0.508)
-				(bold yes)
-			)
-			(justify left)
-		)
-		(uuid "475ec540-5aea-48ed-bde1-3aa440900153")
-	)
 	(text "B3_IOB56A"
 		(exclude_from_sim no)
-		(at 135.89 118.872 0)
+		(at 224.79 42.672 0)
 		(effects
 			(font
 				(face "Courier New")
@@ -1603,11 +1533,11 @@
 			)
 			(justify left)
 		)
-		(uuid "47edfad6-6b26-4978-8804-95c5030ee3d3")
+		(uuid "4807136d-c4bd-4b1a-9b3d-321e1c41ae13")
 	)
-	(text "RAM_RWDS"
+	(text "L5_IOT63A"
 		(exclude_from_sim no)
-		(at 199.39 93.472 0)
+		(at 224.79 87.122 0)
 		(effects
 			(font
 				(face "Courier New")
@@ -1617,7 +1547,35 @@
 			)
 			(justify left)
 		)
-		(uuid "4852d9e7-0345-4612-b3f5-ca519387a63b")
+		(uuid "48521955-82db-435c-88fc-21bd5e2cffb4")
+	)
+	(text "B10_IOL12B"
+		(exclude_from_sim no)
+		(at 224.79 118.872 0)
+		(effects
+			(font
+				(face "Courier New")
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "4a70a4a2-4b03-45ea-9c73-1f943ee371e1")
+	)
+	(text "G11_IOT7A"
+		(exclude_from_sim no)
+		(at 224.79 55.372 0)
+		(effects
+			(font
+				(face "Courier New")
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "4ae69c93-5e4a-47e9-a29b-05b4106b6796")
 	)
 	(text "DP_D16"
 		(exclude_from_sim no)
@@ -1647,6 +1605,34 @@
 		)
 		(uuid "4dd8bca4-247d-4733-a331-35a00d2d2e48")
 	)
+	(text "DP_HSYNC"
+		(exclude_from_sim no)
+		(at 110.49 106.172 0)
+		(effects
+			(font
+				(face "Courier New")
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "4f92d3cf-f0bb-4dac-9120-ddcc8059e891")
+	)
+	(text "L9_IOT31A"
+		(exclude_from_sim no)
+		(at 224.79 99.822 0)
+		(effects
+			(font
+				(face "Courier New")
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "52ba4698-8ea3-4bc4-bcf5-d3a0a45c8abe")
+	)
 	(text "IO"
 		(exclude_from_sim no)
 		(at 21.59 36.576 0)
@@ -1675,9 +1661,9 @@
 		)
 		(uuid "549e02ce-7c2f-42ab-ad11-2071b07bc607")
 	)
-	(text "B11_IOL12A"
+	(text "RAM_D0"
 		(exclude_from_sim no)
-		(at 135.89 106.172 0)
+		(at 199.39 49.022 0)
 		(effects
 			(font
 				(face "Courier New")
@@ -1687,11 +1673,11 @@
 			)
 			(justify left)
 		)
-		(uuid "5959cdb2-fe1c-4da3-a914-f605ce71ffcb")
+		(uuid "58a13d76-035d-4695-8155-05a221a803ea")
 	)
-	(text "RAM_D6"
+	(text "RAM_D3"
 		(exclude_from_sim no)
-		(at 199.39 80.772 0)
+		(at 199.39 67.818 0)
 		(effects
 			(font
 				(face "Courier New")
@@ -1701,7 +1687,7 @@
 			)
 			(justify left)
 		)
-		(uuid "60ec14f1-9912-4fb2-bd05-940e6bf10961")
+		(uuid "5e5e5de2-8120-43b1-a2e4-c1a7b31c3856")
 	)
 	(text "C10_IOL5B"
 		(exclude_from_sim no)
@@ -1717,6 +1703,20 @@
 		)
 		(uuid "6318a158-0d1a-4901-bc7b-f26aa30cb161")
 	)
+	(text "B11_IOL12A"
+		(exclude_from_sim no)
+		(at 224.79 125.222 0)
+		(effects
+			(font
+				(face "Courier New")
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "6460ab90-9cc4-4363-9dda-a831b1b4d5bf")
+	)
 	(text "H8_IOT66A"
 		(exclude_from_sim no)
 		(at 135.89 87.122 0)
@@ -1731,9 +1731,9 @@
 		)
 		(uuid "69853e6c-da75-4fb4-b6d1-c0c56aa54553")
 	)
-	(text "A1_IOB24A"
+	(text "J8_IOT56A"
 		(exclude_from_sim no)
-		(at 224.79 131.572 0)
+		(at 224.79 80.518 0)
 		(effects
 			(font
 				(face "Courier New")
@@ -1743,7 +1743,7 @@
 			)
 			(justify left)
 		)
-		(uuid "6b52de77-33aa-4ede-a87b-1e48e769e1ff")
+		(uuid "6a7c0d5a-dda1-4efb-b87f-95ce0ea743a7")
 	)
 	(text "DP_D21"
 		(exclude_from_sim no)
@@ -1801,23 +1801,23 @@
 		)
 		(uuid "7300fe5b-cad8-48ca-80bf-b9215d81e8e1")
 	)
-	(text "RAM_D3"
+	(text "DP_I2S_LRCLK"
 		(exclude_from_sim no)
-		(at 199.39 61.468 0)
+		(at 199.39 118.872 0)
 		(effects
 			(font
 				(face "Courier New")
-				(size 2.54 2.54)
+				(size 2.032 2.032)
 				(thickness 0.508)
 				(bold yes)
 			)
 			(justify left)
 		)
-		(uuid "78528790-afe8-4233-943f-00b66118f4d1")
+		(uuid "75737c2e-93e7-4de3-b421-dc56a3f5f817")
 	)
-	(text "J11_IOT1A"
+	(text "E11_IOL3A"
 		(exclude_from_sim no)
-		(at 224.79 67.818 0)
+		(at 135.89 106.172 0)
 		(effects
 			(font
 				(face "Courier New")
@@ -1827,11 +1827,11 @@
 			)
 			(justify left)
 		)
-		(uuid "78935cff-a33c-42ec-a2e5-140bd5930157")
+		(uuid "7c0d275f-29f7-4ad5-a1e5-43f5a1122028")
 	)
-	(text "USBFS_PP"
+	(text "RAM_D5"
 		(exclude_from_sim no)
-		(at 110.49 118.872 0)
+		(at 199.39 80.518 0)
 		(effects
 			(font
 				(face "Courier New")
@@ -1841,7 +1841,7 @@
 			)
 			(justify left)
 		)
-		(uuid "7a5adb54-7cb0-415e-82d1-24d69dbf27f2")
+		(uuid "814fc455-7112-448e-9128-9740231bce45")
 	)
 	(text "DP_D3"
 		(exclude_from_sim no)
@@ -1871,9 +1871,9 @@
 		)
 		(uuid "84b84532-ae35-432a-8596-672a926f171c")
 	)
-	(text "H11_IOT3A"
+	(text "A11_IOL14A"
 		(exclude_from_sim no)
-		(at 224.79 42.672 0)
+		(at 135.89 99.822 0)
 		(effects
 			(font
 				(face "Courier New")
@@ -1883,7 +1883,7 @@
 			)
 			(justify left)
 		)
-		(uuid "88645818-f8fa-427a-a3cc-5314f6b5b08f")
+		(uuid "88d25c2c-6909-4f1b-81a8-eca1ccd5ae68")
 	)
 	(text "DP_D8"
 		(exclude_from_sim no)
@@ -1912,20 +1912,6 @@
 			(justify left)
 		)
 		(uuid "8ccc2389-f27d-443c-b6b2-3ca5fbd4bc08")
-	)
-	(text "SD_CLK"
-		(exclude_from_sim no)
-		(at 199.39 131.572 0)
-		(effects
-			(font
-				(face "Courier New")
-				(size 2.54 2.54)
-				(thickness 0.508)
-				(bold yes)
-			)
-			(justify left)
-		)
-		(uuid "8d8a35a0-f3c9-4b8a-913b-d050a8281810")
 	)
 	(text "DP_D12"
 		(exclude_from_sim no)
@@ -1969,20 +1955,6 @@
 		)
 		(uuid "8f119bb8-5677-4ce3-b189-6568438832ba")
 	)
-	(text "L5_IOT63A"
-		(exclude_from_sim no)
-		(at 224.79 80.772 0)
-		(effects
-			(font
-				(face "Courier New")
-				(size 2.54 2.54)
-				(thickness 0.508)
-				(bold yes)
-			)
-			(justify left)
-		)
-		(uuid "92a262f8-b6de-4efe-82af-e46a07f480be")
-	)
 	(text "DP_D2"
 		(exclude_from_sim no)
 		(at 21.59 55.118 0)
@@ -1997,9 +1969,9 @@
 		)
 		(uuid "93df7b56-0e4a-44b2-bb4f-826346d64167")
 	)
-	(text "K9_IOT31B"
+	(text "A10_IOL14B"
 		(exclude_from_sim no)
-		(at 224.79 61.468 0)
+		(at 224.79 131.572 0)
 		(effects
 			(font
 				(face "Courier New")
@@ -2009,7 +1981,7 @@
 			)
 			(justify left)
 		)
-		(uuid "963c3695-af99-4cc2-916b-dbe547da7443")
+		(uuid "96dacdcf-0127-4364-957c-8bba43a70f54")
 	)
 	(text "G5_IOT72B"
 		(exclude_from_sim no)
@@ -2025,9 +1997,9 @@
 		)
 		(uuid "9733c39f-5c5a-458b-8d75-b0244242d1ae")
 	)
-	(text "SD_DAT3"
+	(text "DP_I2S_BCLK"
 		(exclude_from_sim no)
-		(at 199.39 112.522 0)
+		(at 199.39 125.222 0)
 		(effects
 			(font
 				(face "Courier New")
@@ -2037,7 +2009,21 @@
 			)
 			(justify left)
 		)
-		(uuid "98f9b31d-2fc5-4b8f-88df-4cd976617999")
+		(uuid "9863ba24-c308-4b30-a3d3-915048825fab")
+	)
+	(text "J10_IOT1B"
+		(exclude_from_sim no)
+		(at 224.79 106.172 0)
+		(effects
+			(font
+				(face "Courier New")
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "9a007b80-4a67-43f0-a841-1a8299ea3e7c")
 	)
 	(text "IO"
 		(exclude_from_sim no)
@@ -2081,6 +2067,20 @@
 		)
 		(uuid "9fb2b4b4-74db-4e98-812b-2cde99d53c7f")
 	)
+	(text "RAM_D2"
+		(exclude_from_sim no)
+		(at 199.39 61.468 0)
+		(effects
+			(font
+				(face "Courier New")
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "a0a08aa0-a5fb-4022-a1a8-31451a1931c3")
+	)
 	(text "C11_IOL5A"
 		(exclude_from_sim no)
 		(at 46.99 99.822 0)
@@ -2109,20 +2109,6 @@
 		)
 		(uuid "a4528425-a0a6-43ea-80d7-81f624614320")
 	)
-	(text "RAM_CS"
-		(exclude_from_sim no)
-		(at 199.39 106.172 0)
-		(effects
-			(font
-				(face "Courier New")
-				(size 2.54 2.54)
-				(thickness 0.508)
-				(bold yes)
-			)
-			(justify left)
-		)
-		(uuid "a5eb0454-55dd-4d43-bc6f-c7a09deaa10f")
-	)
 	(text "D10_IOL9B"
 		(exclude_from_sim no)
 		(at 46.99 80.772 0)
@@ -2136,6 +2122,34 @@
 			(justify left)
 		)
 		(uuid "a8243a27-2cae-4929-a981-037044b01728")
+	)
+	(text "F7_IOT58A"
+		(exclude_from_sim no)
+		(at 224.79 112.522 0)
+		(effects
+			(font
+				(face "Courier New")
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "a99f364e-8a48-47f7-8251-79c1088da33b")
+	)
+	(text "RAM_D1"
+		(exclude_from_sim no)
+		(at 199.39 55.372 0)
+		(effects
+			(font
+				(face "Courier New")
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "ab7314ac-ba19-4e00-bc15-262e6ad54aaf")
 	)
 	(text "G7_IOT68A"
 		(exclude_from_sim no)
@@ -2151,6 +2165,20 @@
 		)
 		(uuid "af09a067-395f-49eb-aea9-a84575e39b99")
 	)
+	(text "K5_IOT63B"
+		(exclude_from_sim no)
+		(at 135.89 118.872 0)
+		(effects
+			(font
+				(face "Courier New")
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "af16435a-52c0-410f-9be0-9cc7600b7a31")
+	)
 	(text "D11_IOL9A"
 		(exclude_from_sim no)
 		(at 46.99 93.472 0)
@@ -2164,20 +2192,6 @@
 			(justify left)
 		)
 		(uuid "b08f6235-f43e-49ad-b430-5690aa4bafeb")
-	)
-	(text "SD_DAT0"
-		(exclude_from_sim no)
-		(at 199.39 125.222 0)
-		(effects
-			(font
-				(face "Courier New")
-				(size 2.54 2.54)
-				(thickness 0.508)
-				(bold yes)
-			)
-			(justify left)
-		)
-		(uuid "b151c2dc-f029-495b-85e5-d1b2200e0737")
 	)
 	(text "DP_D17"
 		(exclude_from_sim no)
@@ -2207,9 +2221,9 @@
 		)
 		(uuid "b56451e6-45f0-47de-95c3-6818e259349c")
 	)
-	(text "DP_I2S_BCLK"
+	(text "E10_IOL3B"
 		(exclude_from_sim no)
-		(at 110.49 106.172 0)
+		(at 135.89 112.522 0)
 		(effects
 			(font
 				(face "Courier New")
@@ -2219,7 +2233,7 @@
 			)
 			(justify left)
 		)
-		(uuid "b718fef1-4fdb-458f-95fa-b6740a1c062b")
+		(uuid "b5e24248-75f4-4521-aea8-54f70eb5bff4")
 	)
 	(text "C3_IOB56B"
 		(exclude_from_sim no)
@@ -2235,9 +2249,9 @@
 		)
 		(uuid "b9f11caa-dfdf-45f6-824f-237f36de4d8a")
 	)
-	(text "RAM_D1"
+	(text "K8_IOT56B"
 		(exclude_from_sim no)
-		(at 199.39 49.022 0)
+		(at 224.79 93.472 0)
 		(effects
 			(font
 				(face "Courier New")
@@ -2247,7 +2261,7 @@
 			)
 			(justify left)
 		)
-		(uuid "bec90ee1-2878-4933-8202-a6f635695c55")
+		(uuid "baabe0f0-89b1-46b5-8237-4c29ec8775b2")
 	)
 	(text "DP_D5"
 		(exclude_from_sim no)
@@ -2277,9 +2291,9 @@
 		)
 		(uuid "c42a6520-eaf4-4a9d-901a-3ca1cf061021")
 	)
-	(text "B2_IOB4A"
+	(text "DP_DE"
 		(exclude_from_sim no)
-		(at 224.79 112.522 0)
+		(at 110.49 99.822 0)
 		(effects
 			(font
 				(face "Courier New")
@@ -2289,21 +2303,7 @@
 			)
 			(justify left)
 		)
-		(uuid "c5a82938-f32b-493c-9d66-5417a575538f")
-	)
-	(text "B10_IOL12B"
-		(exclude_from_sim no)
-		(at 135.89 99.822 0)
-		(effects
-			(font
-				(face "Courier New")
-				(size 2.54 2.54)
-				(thickness 0.508)
-				(bold yes)
-			)
-			(justify left)
-		)
-		(uuid "c8ee741c-5ad9-44c9-8175-622c3e78553c")
+		(uuid "c5e6ec74-5329-4721-b81f-59d082cc9fb5")
 	)
 	(text "J5_IOT61B"
 		(exclude_from_sim no)
@@ -2319,9 +2319,9 @@
 		)
 		(uuid "cbc71910-063b-4752-98d3-4725148e021e")
 	)
-	(text "RAM_D0"
+	(text "J11_IOT1A"
 		(exclude_from_sim no)
-		(at 199.39 42.672 0)
+		(at 224.79 74.168 0)
 		(effects
 			(font
 				(face "Courier New")
@@ -2331,21 +2331,7 @@
 			)
 			(justify left)
 		)
-		(uuid "cefe2db5-cc30-412d-adbc-ef09998e4bdf")
-	)
-	(text "RAM_D5"
-		(exclude_from_sim no)
-		(at 199.39 74.168 0)
-		(effects
-			(font
-				(face "Courier New")
-				(size 2.54 2.54)
-				(thickness 0.508)
-				(bold yes)
-			)
-			(justify left)
-		)
-		(uuid "d02d464a-db3b-47bc-9d88-b8441ae43f26")
+		(uuid "d067192d-b324-4965-b36e-aafd8f965c84")
 	)
 	(text "DP_D13"
 		(exclude_from_sim no)
@@ -2363,7 +2349,7 @@
 	)
 	(text "F6_IOT58B"
 		(exclude_from_sim no)
-		(at 224.79 55.118 0)
+		(at 224.79 61.468 0)
 		(effects
 			(font
 				(face "Courier New")
@@ -2373,7 +2359,7 @@
 			)
 			(justify left)
 		)
-		(uuid "d45060fe-a2a5-4528-878b-8c25d00b190e")
+		(uuid "d8552e8b-122c-42f1-8695-79b59c647e4a")
 	)
 	(text "DP_D19"
 		(exclude_from_sim no)
@@ -2403,9 +2389,9 @@
 		)
 		(uuid "e1ea78bf-e84b-4f9b-b9a2-50c235dfbf48")
 	)
-	(text "RAM_D4"
+	(text "K9_IOT31B"
 		(exclude_from_sim no)
-		(at 199.39 67.818 0)
+		(at 224.79 67.818 0)
 		(effects
 			(font
 				(face "Courier New")
@@ -2415,7 +2401,21 @@
 			)
 			(justify left)
 		)
-		(uuid "eb99b868-131e-4f91-98ee-660c0b73077c")
+		(uuid "e3679624-21b1-403c-ba7e-b9852467a600")
+	)
+	(text "DP_PCLK"
+		(exclude_from_sim no)
+		(at 110.49 118.872 0)
+		(effects
+			(font
+				(face "Courier New")
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "e86e55e7-44db-4c85-a476-2f447f73cdc5")
 	)
 	(text "DP_D11"
 		(exclude_from_sim no)
@@ -2431,6 +2431,20 @@
 		)
 		(uuid "ec059d7f-a2b9-4c5c-b118-0b04af36c2bf")
 	)
+	(text "DP_VSYNC"
+		(exclude_from_sim no)
+		(at 110.49 112.522 0)
+		(effects
+			(font
+				(face "Courier New")
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "ece33a6b-8258-43ed-b629-62345576804c")
+	)
 	(text "L11_IOT11B"
 		(exclude_from_sim no)
 		(at 46.99 42.672 0)
@@ -2445,9 +2459,9 @@
 		)
 		(uuid "efb03125-2b97-492b-98a8-04788c0f4520")
 	)
-	(text "K8_IOT56B"
+	(text "H11_IOT3A"
 		(exclude_from_sim no)
-		(at 224.79 87.122 0)
+		(at 224.79 49.022 0)
 		(effects
 			(font
 				(face "Courier New")
@@ -2457,7 +2471,21 @@
 			)
 			(justify left)
 		)
-		(uuid "f2b78fbf-b54c-4e5a-a63f-415ada73b853")
+		(uuid "f244b84f-b02f-4ae7-9cdf-edb89b0ba2b6")
+	)
+	(text "RAM_D7"
+		(exclude_from_sim no)
+		(at 199.39 93.472 0)
+		(effects
+			(font
+				(face "Courier New")
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "f2ffa160-5b39-44ca-b1d6-f5ec82c4d5d9")
 	)
 	(text "E3_IOB60A"
 		(exclude_from_sim no)
@@ -2472,33 +2500,5 @@
 			(justify left)
 		)
 		(uuid "f3efd7cb-aac8-4c40-b3c8-fc1022fc70a7")
-	)
-	(text "G11_IOT7A"
-		(exclude_from_sim no)
-		(at 224.79 49.022 0)
-		(effects
-			(font
-				(face "Courier New")
-				(size 2.54 2.54)
-				(thickness 0.508)
-				(bold yes)
-			)
-			(justify left)
-		)
-		(uuid "f846f27f-2dd3-4633-8e0f-97072b60a79e")
-	)
-	(text "J8_IOT56A"
-		(exclude_from_sim no)
-		(at 224.79 74.168 0)
-		(effects
-			(font
-				(face "Courier New")
-				(size 2.54 2.54)
-				(thickness 0.508)
-				(bold yes)
-			)
-			(justify left)
-		)
-		(uuid "fc226ac1-d403-485b-860c-c8e5c621c5a9")
 	)
 )

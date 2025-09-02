@@ -1185,6 +1185,20 @@
 		)
 		(uuid "07c3b0d0-a03a-4a29-b32f-6a9a40e06544")
 	)
+	(text "I2C_SCL"
+		(exclude_from_sim no)
+		(at 110.49 80.518 0)
+		(effects
+			(font
+				(face "Courier New")
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "0981c514-8d70-4565-ac3b-1587744d9071")
+	)
 	(text "L3_IOR31B"
 		(exclude_from_sim no)
 		(at 46.99 125.222 0)
@@ -1213,9 +1227,9 @@
 		)
 		(uuid "0c226fed-0bf8-4595-b046-974c8bdced43")
 	)
-	(text "I2C_SCL"
+	(text "B2_IOB4A"
 		(exclude_from_sim no)
-		(at 110.49 55.118 0)
+		(at 135.89 55.118 0)
 		(effects
 			(font
 				(face "Courier New")
@@ -1225,7 +1239,21 @@
 			)
 			(justify left)
 		)
-		(uuid "0d4ff696-4853-437b-9a60-2d01f41fe17f")
+		(uuid "10e77aeb-2ef1-4243-b0aa-851731f1af50")
+	)
+	(text "D1_IOB14B"
+		(exclude_from_sim no)
+		(at 135.89 86.868 0)
+		(effects
+			(font
+				(face "Courier New")
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "1382c45e-e258-4309-a48e-203b3f45bd48")
 	)
 	(text "H1_IOB91A"
 		(exclude_from_sim no)
@@ -1255,6 +1283,34 @@
 		)
 		(uuid "188afcf1-722c-4bb4-b381-bec81c0c1b24")
 	)
+	(text "A1_IOB24A"
+		(exclude_from_sim no)
+		(at 135.89 74.168 0)
+		(effects
+			(font
+				(face "Courier New")
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "1a3f94b9-4101-42d4-b1c6-63ee86a60c13")
+	)
+	(text "SD_DAT0"
+		(exclude_from_sim no)
+		(at 110.49 67.818 0)
+		(effects
+			(font
+				(face "Courier New")
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "22a7280a-2055-4221-8d18-aa3bed5cbc22")
+	)
 	(text "PIN"
 		(exclude_from_sim no)
 		(at 224.79 36.576 0)
@@ -1268,6 +1324,20 @@
 			(justify left)
 		)
 		(uuid "231de248-b9e9-4796-8bba-7ab1a12942dc")
+	)
+	(text "I2C_SDA"
+		(exclude_from_sim no)
+		(at 110.49 86.868 0)
+		(effects
+			(font
+				(face "Courier New")
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "25857ce7-2b57-48ec-8878-7321d32c0d7f")
 	)
 	(text "J2_IOR33B"
 		(exclude_from_sim no)
@@ -1325,6 +1395,20 @@
 		)
 		(uuid "34a4b930-cf87-4187-b6fb-18c22af8c370")
 	)
+	(text "SD_CLK"
+		(exclude_from_sim no)
+		(at 110.49 74.168 0)
+		(effects
+			(font
+				(face "Courier New")
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "38c00bb2-4f3b-47bb-86bf-5df595379146")
+	)
 	(text "G1_IOR24B"
 		(exclude_from_sim no)
 		(at 46.99 118.872 0)
@@ -1352,6 +1436,20 @@
 			(justify left)
 		)
 		(uuid "473b334a-4d6d-424e-b022-e7e83d5954ea")
+	)
+	(text "SD_DAT3"
+		(exclude_from_sim no)
+		(at 110.49 55.118 0)
+		(effects
+			(font
+				(face "Courier New")
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "47e4ac77-06df-42f1-923f-2a97ea91ede3")
 	)
 	(text "SD_PWRON"
 		(exclude_from_sim no)
@@ -1436,20 +1534,6 @@
 			(justify left)
 		)
 		(uuid "7300fe5b-cad8-48ca-80bf-b9215d81e8e1")
-	)
-	(text "D1_IOB14B"
-		(exclude_from_sim no)
-		(at 135.89 61.468 0)
-		(effects
-			(font
-				(face "Courier New")
-				(size 2.54 2.54)
-				(thickness 0.508)
-				(bold yes)
-			)
-			(justify left)
-		)
-		(uuid "78e23e4b-0d82-42d0-81c1-f81a6fb9c385")
 	)
 	(text "GP_D3"
 		(exclude_from_sim no)
@@ -1549,6 +1633,20 @@
 		)
 		(uuid "8f119bb8-5677-4ce3-b189-6568438832ba")
 	)
+	(text "E1_IOB12B"
+		(exclude_from_sim no)
+		(at 135.89 80.518 0)
+		(effects
+			(font
+				(face "Courier New")
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "916126fd-d2bb-454c-b101-db933d8f2c51")
+	)
 	(text "GP_D2"
 		(exclude_from_sim no)
 		(at 21.59 55.118 0)
@@ -1562,6 +1660,20 @@
 			(justify left)
 		)
 		(uuid "93df7b56-0e4a-44b2-bb4f-826346d64167")
+	)
+	(text "C2_IOB4B"
+		(exclude_from_sim no)
+		(at 135.89 61.468 0)
+		(effects
+			(font
+				(face "Courier New")
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "951908e4-6692-4f47-99fa-5a3c10d03e6b")
 	)
 	(text "IO"
 		(exclude_from_sim no)
@@ -1647,6 +1759,20 @@
 		)
 		(uuid "b08f6235-f43e-49ad-b430-5690aa4bafeb")
 	)
+	(text "SD_CMD"
+		(exclude_from_sim no)
+		(at 110.49 61.468 0)
+		(effects
+			(font
+				(face "Courier New")
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "b485e077-4a5c-4999-9bf7-cfcdea9edc33")
+	)
 	(text "H2_IOB91B"
 		(exclude_from_sim no)
 		(at 46.99 112.522 0)
@@ -1660,20 +1786,6 @@
 			(justify left)
 		)
 		(uuid "b56451e6-45f0-47de-95c3-6818e259349c")
-	)
-	(text "I2C_SDA"
-		(exclude_from_sim no)
-		(at 110.49 61.468 0)
-		(effects
-			(font
-				(face "Courier New")
-				(size 2.54 2.54)
-				(thickness 0.508)
-				(bold yes)
-			)
-			(justify left)
-		)
-		(uuid "bca9aa51-9cea-4d7c-a607-ce6a0b443eb9")
 	)
 	(text "GP_D5"
 		(exclude_from_sim no)
@@ -1717,20 +1829,6 @@
 		)
 		(uuid "d088eb40-8472-44c2-ac56-f077009c2c76")
 	)
-	(text "E1_IOB12B"
-		(exclude_from_sim no)
-		(at 135.89 55.118 0)
-		(effects
-			(font
-				(face "Courier New")
-				(size 2.54 2.54)
-				(thickness 0.508)
-				(bold yes)
-			)
-			(justify left)
-		)
-		(uuid "da21526c-3604-46f1-84d3-b15afd3ccec9")
-	)
 	(text "K4_IOR22B"
 		(exclude_from_sim no)
 		(at 46.99 74.168 0)
@@ -1772,5 +1870,19 @@
 			(justify left)
 		)
 		(uuid "efb03125-2b97-492b-98a8-04788c0f4520")
+	)
+	(text "F1_IOB26B"
+		(exclude_from_sim no)
+		(at 135.89 67.818 0)
+		(effects
+			(font
+				(face "Courier New")
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "f7b2a908-d998-4177-b0ef-4c00211bb307")
 	)
 )
