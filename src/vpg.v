@@ -34,7 +34,6 @@
 
 module vpg(
 	clk_50,
-	reset_n,
 	vpg_pclk_out,
 	vpg_de,
 	vpg_hs,
@@ -45,7 +44,6 @@ module vpg(
 );
 
 input           clk_50;
-input           reset_n;
 output		    vpg_pclk_out;
 output		    vpg_de;
 output		    vpg_hs;
@@ -66,17 +64,21 @@ wire  [11:0] v_active_14, v_active_24, v_active_34;
 //  Sub-module
 //=======================================================
 //=============== PLL reconfigure
-pll u_pll (
-  .clkin(clk_50),
-  .areset(!reset_n),              
-  .clkout(vpg_pclk)
+
+wire locked;
+
+Gowin_PLL pllvg(
+    .clkin(clk_50),
+    .clkout0(vpg_pclk),
+    .lock(locked),
+    .mdclk(clk_50)
 );
 
 assign vpg_pclk_out = ~vpg_pclk;
 //=============== pattern generator according to vga timing
 vga_generator u_vga_generator (                                    
   .clk(vpg_pclk),                
-  .reset_n(reset_n),                                                
+  .reset_n(locked),                                                
   .h_total(h_total),           
   .h_sync(h_sync),           
   .h_start(h_start),             
@@ -136,7 +138,7 @@ vga_generator u_vga_generator (
 //1920x1080p60 148.5MHZ 	
 assign {h_total, h_sync, h_start, h_end} = {12'd2199, 12'd43, 12'd189, 12'd2109}; 
 assign {v_total, v_sync, v_start, v_end} = {12'd1124, 12'd4, 12'd40, 12'd1120}; 
-assign {v_active_14, v_active_24, v_active_34} = {12'd296, 12'd552, 12'd808};
+assign {v_active_14, v_active_24, v_active_34} = {12'd310, 12'd580, 12'd850};
 		
 //1600x1200p60 162MHZ (VESA)
 //assign {h_total, h_sync, h_start, h_end} = {12'd2159, 12'd191, 12'd493, 12'd2093}; 

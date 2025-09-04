@@ -1,4 +1,0 @@
-Video Test Pattern Generate logic
-
-the top module is sys, located at sys.v,
-modify the module pll and gen the proper IP cores to adapt your platform.
