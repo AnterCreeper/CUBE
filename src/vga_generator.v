@@ -47,9 +47,9 @@ input       [11:0] v_active_34,
 output  reg		     vga_hs,
 output  reg        vga_vs,
 output  reg 	     vga_de,
-output  reg [7:0]  vga_r,
-output  reg [7:0]  vga_g,
-output  reg [7:0]  vga_b
+output reg[7:0]  vga_r,
+output reg[7:0]  vga_g,
+output reg[7:0]  vga_b
 );
 
 //=======================================================
@@ -192,14 +192,14 @@ else
 		boarder <= 1'b0;
 
 	if (boarder)
-	{vga_r, vga_g, vga_b} <= {8'hFF,8'hFF,8'hFF};
+	{vga_b, vga_g, vga_r} <= {8'h00,8'h00,8'h00};
 	else
 		case (color_mode)//V,U,Y
-		4'b0001 : {vga_r, vga_g, vga_b} <= {pixel_x,pixel_x,8'h00};
-        4'b0010 : {vga_r, vga_g, vga_b} <= {8'h00,pixel_x,pixel_x};
-        4'b0100 : {vga_r, vga_g, vga_b} <= {pixel_x,8'h00,pixel_x};
-        4'b1000 : {vga_r, vga_g, vga_b} <= {pixel_x,pixel_x,pixel_x};
-	default  : {vga_r, vga_g, vga_b} <= {8'h00,8'h00,8'h00};
+		4'b0001 : {vga_b, vga_g, vga_r} <= {8'h00,8'h00,pixel_x};
+        4'b0010 : {vga_b, vga_g, vga_r} <= {8'h00,pixel_x,8'h00};
+        4'b0100 : {vga_b, vga_g, vga_r} <= {pixel_x,8'h00,8'h00};
+        4'b1000 : {vga_b, vga_g, vga_r} <= {pixel_x,pixel_x,pixel_x};
+		default : {vga_b, vga_g, vga_r} <= {8'hFF,8'hFF,8'hFF};
 	endcase
 	end
 	end
