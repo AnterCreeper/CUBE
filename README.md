@@ -6,8 +6,11 @@ FPGA Development Kit based on Tang Primer 25k Module
 2. Audio DAC HAT with PLL, reuse displayport i2s and use no extra pins.
 3. 16x Programmable Voltage IO
 4. SDCard in 1-bit SDIO/SPI mode
-5. USB Device
+5. USB mini-B Device Port
 6. EEPROM
+7. Winbond W958D8NBYI 256Mbit HYPERRAM x8
+![front](https://github.com/user-attachments/assets/abb218c1-7b0b-481c-92ce-c1d8ebb9a848)
+![back](https://github.com/user-attachments/assets/daafba18-5fae-471a-bee7-6256036dffc9)
 
 ### Issue
 1. Video Output comsumed too much IOs, use RGB666 instead. The remained 6x 1.8V pins can be used by SDcard(CLK, D[3:0] and CMD), extend it to full 4-bit. Use one TXB0106 and adjustable LDO for programmable level shifting.
