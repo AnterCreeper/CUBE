@@ -7,6 +7,7 @@ FPGA Development Kit based on Tang Primer 25k Module
 3. 16x Programmable Voltage IO
 4. SDCard in 1-bit SDIO/SPI mode
 5. USB Device
+6. EEPROM
 
 ### Issue
 1. Video Output comsumed too much IOs, use RGB666 instead. The remained 6x 1.8V pins can be used by SDcard(CLK, D[3:0] and CMD), extend it to full 4-bit. Use one TXB0106 and adjustable LDO for programmable level shifting.
