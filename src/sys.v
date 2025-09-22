@@ -75,7 +75,7 @@ wire        recv_valid;
 wire [ 7:0] send_data = (recv_data >= 8'h61 && recv_data <= 8'h7A) ? (recv_data - 8'h20) : recv_data;   // lowercase -> uppercase
 
 usb_serial_top #(
-    .DEBUG           ( "TRUE"              )    // If you want to see the debug info of USB device core, set this parameter to "TRUE"
+    .DEBUG           ( "FALSE"             )    // If you want to see the debug info of USB device core, set this parameter to "TRUE"
 ) u_usb_serial (
     .rstn            ( clk_locked          ),
     .clk             ( clk60               ),
@@ -100,7 +100,7 @@ usb_serial_top #(
 
 aud_gen aud_test(
     .clk(clk60),
-    .rst(~clk_locked),
+    .rst(1'b0),
 
     .spi_pwron(spi_pwron),
     .spi_cs(spi_cs),
