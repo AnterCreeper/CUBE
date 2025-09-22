@@ -22,3 +22,4 @@ FPGA Development Kit based on Tang Primer 25k Module
 1. Gigabit Ethernet with RTL8211, 14pins(TXCLK,TX[3:0],RXCLK,RX[3:0],TX_CTL,RX_CTL,MDIO,MDC).
 2. Camera Parallel, 12pins(D[7:0],PCLK,VSYNC,HREF/DE,PWON), could be Camera, HDMI to RGB, USB Camera to DVP or CSI-2 to RGB.
 3. USB FT245 FIFO, 14pins(D[7:0],CLK60,PWREN,TXF,RXF,WR,RD).
+4. eMMC, 11pins(D[7:0],CLK,DataStrobe,CMD).
