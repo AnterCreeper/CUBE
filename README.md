@@ -2,24 +2,16 @@
 FPGA Development Kit based on Tang Primer 25k Module
 
 ### Feature
-1. 1080p 60fps Video + I2S Audio Output(combined with pdaltmode project)
-2. Audio DAC HAT with PLL, reuse displayport i2s and use no extra pins.
-3. 16x Programmable Voltage IO
-4. SDCard in 1-bit SDIO/SPI mode
-5. USB mini-B Device Port
-6. EEPROM
-7. Winbond W958D8NBYI 256Mbit HYPERRAM x8
+- 1080p 60fps Digital Video & Audio，via DisplayPort over Type-C, and support USB Host
+- Stereo High Definition Headphone Audio output(via Top HAT)
+- Winbond 32MB(256Mbit) HYPERRAM(R) DRAM
+- microSD Storage
+- EEPROM for recording firmware and configuration
+- 16 Programmable Voltage GPIOs，Support 1.2V, 1.5V, 1.8V, 2.5V, 3.3V, for various peripheries
+- USB HID to I2C HID, enabling support for Mouse and Keyboard(via Top HAT)
+- USB 12Mbps Full Speed Device, for emulating USB Audio Card, CDC Serial, Mass Storage and so on
+- MIPI PHY TX/RX 4 lanes
+
+### Appearance
 ![front](https://github.com/user-attachments/assets/abb218c1-7b0b-481c-92ce-c1d8ebb9a848)
 ![back](https://github.com/user-attachments/assets/daafba18-5fae-471a-bee7-6256036dffc9)
-
-### Issue
-1. Video Output comsumed too much IOs, use RGB666 instead. The remained 6x 1.8V pins can be used by SDcard(CLK, D[3:0] and CMD), extend it to full 4-bit. Use one TXB0106 and adjustable LDO for programmable level shifting.
-2. The 4x 3.3V pins from SDcard can be used as follows: one for SDCard Power Mux, one for MCU Interrupt to FPGA, one for I2C arbitering between MCU and FPGA, and one for UART Debug Tx(and also connected with LED).
-3. The arbitering Line is pulled up, having one host(FPGA) and one device(MCU). MCU should controll the EN pin of I2C level shifter, and enable it after receiving ack of the request from the FPGA.
-4. Add Power Mux TPS2121 for multiple Power Supplies(PoE, Batteries, etc..).
-
-### 12+4 pin Programmable Voltage HAT
-1. Gigabit Ethernet with RTL8211, 14pins(TXCLK,TX[3:0],RXCLK,RX[3:0],TX_CTL,RX_CTL,MDIO,MDC).
-2. Camera Parallel, 12pins(D[7:0],PCLK,VSYNC,HREF/DE,PWON), could be Camera, HDMI to RGB, USB Camera to DVP or CSI-2 to RGB.
-3. USB FT245 FIFO, 14pins(D[7:0],CLK60,PWREN,TXF,RXF,WR,RD).
-4. eMMC, 11pins(D[7:0],CLK,DataStrobe,CMD).
